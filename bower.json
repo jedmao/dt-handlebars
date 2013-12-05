@@ -1,0 +1,14 @@
+{
+  "name": "dt-handlebars",
+  "version": "1.0",
+  "homepage": "https://github.com/jedhunsaker/dt-handlebars",
+  "description": "TypeScript Definitions for Handlebars",
+  "main": "handlebars.d.ts",
+  "keywords": [
+    "handlebars",
+    "typescript",
+    "definition",
+    "typing"
+  ],
+  "license": "MIT"
+}
