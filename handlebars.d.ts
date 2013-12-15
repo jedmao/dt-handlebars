@@ -4,6 +4,8 @@
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
 
+declare var Handlebars: HandlebarsStatic;
+
 interface HandlebarsStatic {
     registerHelper(name: string, fn: Function, inverse?: boolean): void;
     registerPartial(name: string, str: any): void;
@@ -35,8 +37,6 @@ interface Logger {
     log(level: number, obj: string): void;
 }
 
-declare module "Handlebars" {
+declare module "handlebars" {
     export = Handlebars;
 }
-
-declare var Handlebars: HandlebarsStatic;
